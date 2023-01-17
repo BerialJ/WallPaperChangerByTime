@@ -1,4 +1,5 @@
 @echo off
 
+path=""
 echo "[%date% %time%] Starting.."
-start pythonw C:\Users\admin\Desktop\tools\wallpaper_changer\changer.py
+start pythonw %path\changer.py
